@@ -1,4 +1,4 @@
-# github-actions-java
+## github-actions-java
 
 Fibonacci 계산하는 자바 프로그램으로서 github actions을 사용하여 자동으로 CI를 구현하였다.
 1) github repository에서 코드를 checkout
