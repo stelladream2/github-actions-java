@@ -12,8 +12,7 @@
 
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <maven.compiler.source>17</maven.compiler.source>
-      <maven.compiler.target>17</maven.compiler.target>  
+      <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
   <dependencies>
@@ -29,11 +28,11 @@
     <plugins>
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <version>3.4.2</version>
         <configuration>
           <archive>
             <manifest>
-              <mainClass>kr.ac.hansung.Fibonacci </mainClass>
+              <mainClass>kr.ac.hansung.Fibonacci</mainClass>
             </manifest>
           </archive>
         </configuration>
